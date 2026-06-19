@@ -11,8 +11,6 @@ import com.weatherapp.model.WeatherInfo;
 
 public class WeatherService {
 
-    private static final String API_KEY = "P9ZYC";
-
     public WeatherInfo getWeather(String city) throws Exception {
 
         String url =
